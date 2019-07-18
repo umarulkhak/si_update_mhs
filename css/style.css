@@ -1,0 +1,46 @@
+
+html, body {
+font-family: 'Arial', sans-serif;
+margin: 0px;
+padding: 0px;
+font-size: 12px;
+width: 100%;
+min-height: 100%;
+height: 100%;
+}
+body {
+    overflow-x: hidden;
+    background: rgba(0, 0, 0, 0) url("img/bg_c.png") repeat scroll 0 0;
+}
+#top_header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 5;
+}
+
+.garis_atas {
+    position: relative;
+    height: 3px;
+    width: 100%;
+    background: rgb(255, 221, 0) none repeat scroll 0 0 !important;
+    background-color: #0f2f62 !important;
+}
+.box_top_menu {
+    color: #000;
+}
+.box_top_menu {
+    border-bottom: 1px solid #999999;
+    background: rgb(30,87,153) none repeat scroll 0 0 !important;
+    color: #000;
+}
+.head_title {
+    margin-left: 10px;
+    font-size: 22px;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Roboto Condensed','Arial';
+}
+a {
+    text-decoration: none;
+}
